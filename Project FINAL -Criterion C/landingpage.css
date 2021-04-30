@@ -24,6 +24,9 @@
   animation: anim 25s linear infinite;
 }
 
+/* Animation zooms in and zooms out halfway through each 
+sequence with a zoom scale factor of 1.5 */
+
 @keyframes anim {
   50%{
     transform: scale(1.5);
@@ -32,6 +35,8 @@
     transform: scale(1);
   }
 }
+
+
 .page-content{
   position: absolute;
   top: 50%;

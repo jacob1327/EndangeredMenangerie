@@ -22,7 +22,7 @@ body {
   height: 293px;
   perspective: 1000px;
   position: absolute;
-  top: 20%;
+  top: 14%;
   left: 5%;
 }
 
@@ -67,7 +67,7 @@ body {
   height: 293px;
   perspective: 1000px;
   position: absolute;
-  top: 20%;
+  top: 14%;
   left: 52%;
 }
 
@@ -225,8 +225,38 @@ footer {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #ffffff;
+    background-color: #FEEED8;
     background-clip: border-box;
     border: 0 solid rgba(0, 0, 0, 0.125);
     border-radius: 0;
+
+    width: 620px;
+    height: 293px;
+    perspective: 1000px;
+    position: absolute;
+    top: 58%;
+    left: 5%;
+    border-color: black;
+    border-width: 5px;
+}
+
+.card2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #FEEED8;
+    background-clip: border-box;
+    border: 0 solid rgba(0, 0, 0, 0.125);
+    border-radius: 0;
+
+    width: 620px;
+    height: 293px;
+    perspective: 1000px;
+    position: absolute;
+    top: 58%;
+    left: 52%;
+    border-color: black;
+    border-width: 5px;
 }
